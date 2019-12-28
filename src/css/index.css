@@ -7,10 +7,7 @@ html, body {
   height: 100%;
 }
 
-h1 {
-  font-size: 5rem;
-  color: blue;
-}
+
 
 /* Navigation bar */
 .header .main_menu .navbar-nav .active a {
@@ -170,7 +167,7 @@ h1 {
 }
 
 .experience{
-  padding-left: 3rem;
+  padding-left: 2rem;
 }
 
 .experience span{
@@ -195,3 +192,14 @@ position: relative;
   margin-left: 340px;
   z-index: -1;
 } 
+
+ h2.year-num{
+  font: normal bold 84px/40px;
+  color: #B8336A;
+  z-index: 2;
+  font-size: 5rem;
+}
+
+.call{
+  padding-left: 10rem;
+}
