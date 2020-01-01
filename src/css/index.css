@@ -1,10 +1,13 @@
 @import url(./fonts.css);
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
 html, body {
   margin: 0%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
   height: 100%;
+  font-family: 'Libre Baskerville', serif;
 }
 
 
@@ -25,7 +28,6 @@ html, body {
 }
 
 .header .main_menu .nav-item .nav-link {
-  font-family: "Roboto", regular;
   text-transform: uppercase;
   font-weight: 500;
   padding: 1.7rem;
@@ -128,6 +130,10 @@ html, body {
   text-transform: uppercase;
 }
 
+.about-para{
+  font-size: 1.2rem;
+}
+
 /* Brand area */
 .call-now{
   margin-left: 1rem;
@@ -226,4 +232,8 @@ position: relative;
 
 .services:hover{
   box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+}
+
+.paragraph{
+  font-size: 1.3rem;
 }
